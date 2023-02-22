@@ -1,0 +1,15 @@
+<div class= "text-container">
+  <h1>Stupid coach</h1>
+
+  <div class="border-start border-secondary border-5 container p-2 mt-3 mb-3">
+    <%= @question %>
+    <p><em>-You</em></p>
+  </div>
+
+  <div class="border-start border-secondary border-5 container bg-warning bg-opacity-10 p-2 mt-3 mb-3">
+   <strong><%= @answer %></strong>
+    <p><em>-Your coach</em></p>
+  </div>
+
+<%= link_to "Ask another question", ask_path, :class =>"text-decoration-none fs-6"%>
+</div>
